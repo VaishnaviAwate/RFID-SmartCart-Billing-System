@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "uart0.o" "uart1.o" "rfid.o" "extint.o" "main.o" "kpm.o" "lcd.o" "menu.o" "delay.o" "cart1.o" --strict --scatter "major_pr.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\major_pr.map" -o "major_pr.axf"

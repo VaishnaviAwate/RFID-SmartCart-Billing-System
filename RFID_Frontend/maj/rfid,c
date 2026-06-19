@@ -1,0 +1,16 @@
+#include <lpc214x.h>
+
+void rfid_read(char *card){
+    int i;
+    while(U1RBR!=0x02);
+
+    for(i=0;i<8;i++){
+        while(!(U1LSR&1));
+        card[i]=U1RBR;
+    }
+
+    card[8]='\0';
+
+    while(!(U1LSR&1));
+    U1RBR;
+}

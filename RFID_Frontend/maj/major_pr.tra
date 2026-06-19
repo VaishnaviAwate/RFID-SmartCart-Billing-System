@@ -1,0 +1,29 @@
+*** Creating Trace Output File 'major_pr.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"uart0.o"'
+### List of Objects: adding '"uart1.o"'
+### List of Objects: adding '"rfid.o"'
+### List of Objects: adding '"extint.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"kpm.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"menu.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"cart1.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "uart0.o" "uart1.o" "rfid.o" "extint.o" "main.o" "kpm.o" "lcd.o" "menu.o" "delay.o" "cart1.o" --strict --scatter "major_pr.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\major_pr.map" -o "major_pr.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'major_pr.axf'
+### ADS-LD Command File: 'major_pr.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'major_pr.lnp', Handle=0x0000034C
+### Writing '.lnp' file
+### ADS-LD Command file 'major_pr.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

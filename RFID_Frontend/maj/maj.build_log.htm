@@ -1,0 +1,99 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\moham\Downloads\maj\maj.uvproj
+Project File Date:  04/29/2026
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling uart0.c...
+compiling uart1.c...
+compiling rfid.c...
+compiling extint.c...
+extint.c(10): warning:  #61-D: integer operation result is out of range
+      PINSEL0 |= 1<<31;
+extint.c(10): warning:  #68-D: integer conversion resulted in a change of sign
+      PINSEL0 |= 1<<31;
+extint.c: 2 warnings, 0 errors
+compiling main.c...
+compiling KPM.c...
+compiling lcd.c...
+lcd.c(9): warning:  #61-D: integer operation result is out of range
+         WBYTE(IOPIN1,LCD_DATA,data);//EN=1
+lcd.c(27): warning:  #61-D: integer operation result is out of range
+         WBYTE(IODIR1,LCD_DATA,255);//p0.8 to p0.15 as o/p
+lcd.c(27): warning:  #61-D: integer operation result is out of range
+         WBYTE(IODIR1,LCD_DATA,255);//p0.8 to p0.15 as o/p
+lcd.c(27): warning:  #68-D: integer conversion resulted in a change of sign
+         WBYTE(IODIR1,LCD_DATA,255);//p0.8 to p0.15 as o/p
+lcd.c: 4 warnings, 0 errors
+compiling menu.c...
+compiling cart.c...
+compiling delay.c...
+linking...
+Program Size: Code=9956 RO-data=304 RW-data=44 ZI-data=1892  
+".\maj.axf" - 0 Error(s), 6 Warning(s).
+</pre>
+</body>
+</html>
+(27): warning:  #61-D: integer operation result is out of range
+         WBYTE(IODIR1,LCD_DATA,255);//p0.8 to p0.15 as o/p
+lcd.c(27): warning:  #68-D: integer conversion resulted in a change of sign
+         WBYTE(IODIR1,LCD_DATA,255);//p0.8 to p0.15 as o/p
+lcd.c: 5 warnings, 0 errors
+compiling menu.c...
+type.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+menu.c: 1 warning, 0 errors
+compiling cart.c...
+type.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+cart.c: 1 warning, 0 errors
+compiling delay.c...
+linking...
+Program Size: Code=9956 RO-data=304 RW-data=44 ZI-data=1892  
+".\maj.axf" - 0 Error(s), 13 Warning(s).
+rce input file "type.h": No such file or directory
+  #include "type.h"
+lcd.c: 0 warnings, 1 error
+compiling menu.c...
+lcd.h(1): error:  #5: cannot open source input file "type.h": No such file or directory
+  #include "type.h"
+menu.c: 0 warnings, 1 error
+compiling cart.c...
+cart.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+lcd.h(1): error:  #5: cannot open source input file "type.h": No such file or directory
+  #include "type.h"
+cart.c: 1 warning, 1 error
+compiling delay.c...
+".\maj.axf" - 5 Error(s), 16 Warning(s).
+Target not created
+.
+lcd.c(3): error:  #5: cannot open source input file "type.h": No such file or directory
+  #include "type.h"
+lcd.c: 0 warnings, 1 error
+compiling menu.c...
+lcd.h(1): error:  #5: cannot open source input file "type.h": No such file or directory
+  #include "type.h"
+menu.c: 0 warnings, 1 error
+compiling cart.c...
+cart.h(4): warning:  #1295-D: Deprecated declaration add_item - give arg types
+  void add_item();
+cart.h(5): warning:  #1295-D: Deprecated declaration delete_item - give arg types
+  void delete_item();
+cart.h(6): warning:  #1295-D: Deprecated declaration payment - give arg types
+  void payment();
+cart.h(7): warning:  #1295-D: Deprecated declaration admin_menu - give arg types
+  void admin_menu();
+cart.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+lcd.h(1): error:  #5: cannot open source input file "type.h": No such file or directory
+  #include "type.h"
+cart.c: 5 warnings, 1 error
+compiling delay.c...
+".\maj.axf" - 8 Error(s), 23 Warning(s).
+Target not created

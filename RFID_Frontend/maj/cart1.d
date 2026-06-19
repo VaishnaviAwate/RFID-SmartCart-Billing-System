@@ -1,0 +1,11 @@
+cart1.o: cart1.c
+cart1.o: C:\KeilARM\ARM\RV31\INC\stdio.h
+cart1.o: C:\KeilARM\ARM\RV31\INC\string.h
+cart1.o: cart.h
+cart1.o: lcd.h
+cart1.o: type.h
+cart1.o: uart0.h
+cart1.o: rfid.h
+cart1.o: kpm.h
+cart1.o: state.h
+cart1.o: delay.h

@@ -1,0 +1,29 @@
+*** Creating Trace Output File 'RFID_major_pro.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"uart0.o"'
+### List of Objects: adding '"uart1.o"'
+### List of Objects: adding '"rfid.o"'
+### List of Objects: adding '"extint.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"kpm.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"menu.o"'
+### List of Objects: adding '"cart.o"'
+### List of Objects: adding '"delay.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "uart0.o" "uart1.o" "rfid.o" "extint.o" "main.o" "kpm.o" "lcd.o" "menu.o" "cart.o" "delay.o" --strict --scatter "RFID_major_pro.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RFID_major_pro.map" -o "RFID_major_pro.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'RFID_major_pro.axf'
+### ADS-LD Command File: 'RFID_major_pro.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'RFID_major_pro.lnp', Handle=0x00000108
+### Writing '.lnp' file
+### ADS-LD Command file 'RFID_major_pro.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

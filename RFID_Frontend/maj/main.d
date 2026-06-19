@@ -1,0 +1,13 @@
+main.o: main.c
+main.o: C:\KeilARM\ARM\INC\Philips\lpc214x.h
+main.o: state.h
+main.o: menu.h
+main.o: cart.h
+main.o: uart0.h
+main.o: uart1.h
+main.o: rfid.h
+main.o: extint.h
+main.o: LCD.h
+main.o: type.h
+main.o: kpm.h
+main.o: delay.h
